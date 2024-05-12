@@ -285,6 +285,7 @@ header{
 }
 
 @media(max-width: 426px){
+
     .banner_text h1{
         font-size: 50px;
     }
@@ -809,6 +810,12 @@ video{
     
     .enemies_1 p{
         font-size: 13px;
+    }
+
+    
+    .enemies_content{
+        max-width: 300px;
+        width: 100%;
     }
     
 }
