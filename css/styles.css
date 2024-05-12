@@ -1074,3 +1074,9 @@ video{
   
   
   /* Barra de Rolagem */
+
+  @media(max-width: 768px) {
+    ::-webkit-scrollbar {
+        display: none; 
+    }
+}
