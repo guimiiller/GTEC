@@ -1,26 +1,30 @@
 
-/* MENU */
-const menu = document.querySelector('.menu')
-const navMenu = document.querySelector('.nav-menu')
+const menu = document.querySelector('.menu');
+const navMenu = document.querySelector('.nav-menu');
 
-menu.addEventListener('click', () =>{
-    menu.classList.toggle('ativo')
-    navMenu.classList.toggle('ativo')
-})
+menu.addEventListener('click', () => {
+    menu.classList.toggle('ativo');
+    navMenu.classList.toggle('ativo');
+});
 
 document.addEventListener("DOMContentLoaded", function() {
-    
     var menuLinks = document.querySelectorAll('.nav-menu a');
 
-    
     menuLinks.forEach(function(menuLink) {
         menuLink.addEventListener('click', function() {
-            
-            document.querySelector('.menu').classList.remove('ativo');
-            document.querySelector('.nav-menu').classList.remove('ativo');
+            menu.classList.remove('ativo');
+            navMenu.classList.remove('ativo');
         });
     });
 });
+
+window.addEventListener('scroll', () => {
+    if (menu.classList.contains('ativo')) {
+        menu.classList.remove('ativo');
+        navMenu.classList.remove('ativo');
+    }
+});
+
 
 
 /* BORDA */
