@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>GTEC-Controle De Pragas</title>
     <link rel="icon" href="./images/favicon.ico" type="image/png" sizes="100x100">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    <!-- Primary Meta Tags -->
     <meta name="title" content="GTEC Controle de Pragas: Soluções Profissionais para Eliminação de Pragas" />
     <meta name="description" content="Descubra soluções eficazes e especializadas em controle de pragas com a GTEC. Oferecemos serviços profissionais para eliminar insetos, roedores e outras pragas, garantindo um ambiente seguro e saudável para sua família e negócio. Conte com nossa experiência e comprometimento para proteger seu espaço contra infestações." />
@@ -119,6 +121,11 @@
                 <img src="./images/icons/iconCard4.png" alt="Icon Services5" data-anime="bottom">
                 <p data-anime="bottom">Tratamentos específicos para controle de pragas voadoras, como mosquitos, moscas e vespas.</p>
             </div>
+            <div class="card" data-anime="bottom">
+                <h3 data-anime="bottom">Limpeza de caixa d’água</h3>
+                <img src="./images/icons/watericon.png" alt="Icon Services5" data-anime="bottom">
+                <p data-anime="bottom">Garanta água limpa e segura! Removemos sedimentos e impurezas, prevenindo bactérias.</p>
+            </div>
         </div>
 
         <div class="dropdown_service">
@@ -134,6 +141,45 @@
                 <summary>Especializados</summary>
                 <p>Nossos tratamentos especializados são desenvolvidos para lidar com problemas específicos de pragas. Desde infestações graves até pragas mais difíceis de controlar, nossa equipe especializada utiliza técnicas avançadas e produtos seguros para resolver qualquer desafio de controle de pragas que você possa enfrentar.</p>
             </details>
+        </div>
+
+        <div class="water_service">
+            <div class="water_text"><h3 data-anime="bottom">Limpeza de <span class="blue">Caixa d'Água</span></h3><p data-anime="bottom">Mantenha sua água segura e limpa! Nosso serviço remove sedimentos e impurezas, prevenindo a proliferação de bactérias. Agende agora e garanta água pura para sua família ou empresa!</p></div>
+            <div class="water_img" data-anime="bottom">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/water1.jpeg" alt="Description of Image 1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/water2.jpeg" alt="Description of Image 2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/water3.jpeg" alt="Description of Image 3">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/water4.jpeg" alt="Description of Image 4">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/water5.jpeg" alt="Description of Image 5">
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="about_2_service" id="more">
+            <div class="about_2_image_service" data-anime="bottom">
+                <video controls class="video2">
+                    <source src="./video/video2.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+            </div>
+            <div class="about_2_text_service">
+                <h3 data-anime="bottom">Termonebulização para Controle de <span class="blue">Insetos Alados</span></h3>
+                <p data-anime="bottom">Garanta um ambiente seguro e livre de insetos alados, como mosquitos e pernilongos, incluindo o Aedes aegypti, com nosso serviço de termonebulização. Utilizamos técnicas avançadas para eliminar pragas e proteger sua saúde e bem-estar. Agende agora e mantenha seu espaço livre de riscos.</p>
+            </div>
         </div>
     </section>
 
@@ -233,6 +279,25 @@
         </a>
     </div>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 1, // Mostrar apenas um slide por vez
+                spaceBetween: 10, // Espaçamento opcional entre slides
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+    </script>
+    
     <script src="./js/script.js"></script>
 </body>
 </html>
