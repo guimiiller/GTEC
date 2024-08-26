@@ -230,7 +230,7 @@ header{
 .banner_text h1{
     font-size: 70px;
     color: #FFF;
-    margin-top: 85px;
+    margin-top: 80px;
 }
 
 .banner_text h2{
@@ -278,6 +278,7 @@ header{
 @media(max-width: 769px){
     .banner_text h1{
         font-size: 70px;
+        margin-top: 75px;
     }
 
     .banner_text h2{
@@ -308,6 +309,7 @@ header{
 @media(max-width: 376px){
     .banner_text h1{
         font-size: 45px;
+        margin-top: 50px;
     }
 
     .banner_text h2{
