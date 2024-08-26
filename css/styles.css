@@ -57,6 +57,7 @@ header{
     margin: 0; 
     padding: 0; 
     width: 100%; 
+    margin-bottom: 30px;
 }
 
 .navigation ul li{
@@ -71,7 +72,7 @@ header{
 
 .navigation ul li a {
     color: #fff;
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: all 0.5s;
@@ -227,9 +228,9 @@ header{
 }
 
 .banner_text h1{
-    font-size: 79px;
+    font-size: 70px;
     color: #FFF;
-    margin-top: 116px;
+    margin-top: 85px;
 }
 
 .banner_text h2{
@@ -243,7 +244,7 @@ header{
     border: 2px solid #FFF;
     background: transparent;
     border-radius: 5px;
-    padding: 13px 43px;
+    padding: 13px 38px;
     margin-top: 60px;
     transition: .4s;
 }
