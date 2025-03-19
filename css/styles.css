@@ -932,7 +932,7 @@ video{
 /* Responsividade */
 @media (max-width: 1024px) {
     .responsive-atuation {
-        padding: 40px 50px;
+        padding: 40px 10px;
     }
 
     .title {
@@ -952,22 +952,9 @@ video{
         flex-direction: row;
         max-width: 100%;
     }
-
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        width: 100%;
-        flex-wrap: wrap; /* Permite a reorganização dos itens em telas menores */
-    }
 }
 
 @media (max-width: 769px) {
-    .responsive-atuation {
-        background-image: url('./bannersec1mob.png');
-        padding: 20px;
-    }
 
     .container {
         flex-direction: column;
@@ -985,9 +972,9 @@ video{
     }
 
     .buttons-grid {
-        flex-direction: row; /* Mantém os botões em linha (row) nas telas menores */
+        flex-direction: row; 
         width: 100%;
-        gap: 15px; /* Espaçamento entre os botões */
+        gap: 15px;
     }
 
     .selection-button {
@@ -1018,17 +1005,11 @@ video{
 @media (max-width: 480px) {
     .area-container {
         width: 100%;
-        padding: 15px;
+        padding: 30px;
     }
 
     .buttons-grid {
         width: 100%;
-    }
-
-    .selection-button {
-        width: 100%; /* Remove a largura 100% para que os botões se ajustem melhor */
-        max-width: 270px; /* Limita a largura dos botões */
-        padding: 10px 15px; /* Ajuste no padding para caber melhor nas telas pequenas */
     }
     
 
