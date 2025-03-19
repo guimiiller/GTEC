@@ -1014,7 +1014,7 @@ video{
     
 
     .selection-button h3 {
-        font-size: 15px; /* Ajusta o tamanho da fonte do título */
+        font-size: 13px; /* Ajusta o tamanho da fonte do título */
     }
 
     .selection-button p {
@@ -1427,14 +1427,14 @@ video{
     bottom: 15px;
     right: 15px;
     z-index: 9999;
-    background-color: #1c40ab;
-    border-radius: 100%;
 
 }
 
 .whats img {
     width: 70px;
     height: 70px;
+    background-color: #1c40ab;
+    border-radius: 100%;
 }
 
 
